@@ -22,7 +22,11 @@ app = FastAPI(
 app.add_middleware(
     CORSMiddleware,
     allow_origins=[
-        "https://bohua.cjtzn.com"
+        "https://bohua.cjtzn.com",
+        "http://localhost:3000",       # Vue 开发环境
+        "http://localhost:3001",       # Vue 开发环境（备用端口）
+        "http://127.0.0.1:3000",       # localhost 别名
+        "http://127.0.0.1:3001",
     ],
     allow_credentials=True,
     allow_methods=["*"],
