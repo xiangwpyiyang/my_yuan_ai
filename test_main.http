@@ -1,0 +1,9 @@
+GET http://localhost:8000/api/health
+
+###
+POST http://localhost:8000/api/v1/ai/execute
+Content-Type: application/json
+
+{
+  "command": "创建满100减20的优惠券"
+}
