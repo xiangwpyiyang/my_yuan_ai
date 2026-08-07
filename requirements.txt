@@ -3,7 +3,7 @@ uvicorn[standard]==0.30.0
 sqlalchemy==2.0.41
 pymysql==1.1.0
 python-dotenv==1.0.0
-openai>=1.50.0          # 升级到较新版本
+openai>=1.58.0          # 升级到较新版本
 requests==2.34.2
 pydantic>=2.10.0        # 之前已经升级过了
 # 可选的，显式指定 httpx 版本以确保兼容
